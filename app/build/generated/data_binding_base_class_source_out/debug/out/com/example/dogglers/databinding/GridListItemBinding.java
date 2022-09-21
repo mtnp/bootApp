@@ -4,6 +4,7 @@ package com.example.dogglers.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -21,6 +22,9 @@ public final class GridListItemBinding implements ViewBinding {
   private final MaterialCardView rootView;
 
   @NonNull
+  public final Button bootButton;
+
+  @NonNull
   public final ImageView image;
 
   @NonNull
@@ -32,9 +36,11 @@ public final class GridListItemBinding implements ViewBinding {
   @NonNull
   public final TextView price;
 
-  private GridListItemBinding(@NonNull MaterialCardView rootView, @NonNull ImageView image,
-      @NonNull TextView leather, @NonNull TextView name, @NonNull TextView price) {
+  private GridListItemBinding(@NonNull MaterialCardView rootView, @NonNull Button bootButton,
+      @NonNull ImageView image, @NonNull TextView leather, @NonNull TextView name,
+      @NonNull TextView price) {
     this.rootView = rootView;
+    this.bootButton = bootButton;
     this.image = image;
     this.leather = leather;
     this.name = name;
@@ -68,6 +74,12 @@ public final class GridListItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.boot_button;
+      Button bootButton = ViewBindings.findChildViewById(rootView, id);
+      if (bootButton == null) {
+        break missingId;
+      }
+
       id = R.id.image;
       ImageView image = ViewBindings.findChildViewById(rootView, id);
       if (image == null) {
@@ -92,7 +104,8 @@ public final class GridListItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new GridListItemBinding((MaterialCardView) rootView, image, leather, name, price);
+      return new GridListItemBinding((MaterialCardView) rootView, bootButton, image, leather, name,
+          price);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

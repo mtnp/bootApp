@@ -15,8 +15,10 @@
 */
 package com.example.dogglers
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.const.Layout
 import com.example.dogglers.databinding.ActivityGridListBinding
@@ -24,11 +26,18 @@ import com.example.dogglers.databinding.ActivityGridListBinding
 class GridListActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityGridListBinding
+    private lateinit var listIntent: Intent
+
+//    private var bootButton: Button? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityGridListBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+//      Launch the HorizontalListActivity on horizontalBtn click
+//        bootButton = findViewById(R.id.boot_button)
+//        bootButton!!.setOnClickListener { launchHorizontal() }
 
         binding.gridRecyclerView.adapter = DogCardAdapter(
             applicationContext,
@@ -40,5 +49,10 @@ class GridListActivity : AppCompatActivity() {
 
         // Enable up button for backward navigation
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    }
+
+    private fun launchHorizontal() {
+        listIntent = Intent(this, HorizontalListActivity::class.java)
+        startActivity(listIntent)
     }
 }

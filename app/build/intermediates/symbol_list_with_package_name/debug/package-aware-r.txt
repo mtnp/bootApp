@@ -2619,6 +2619,7 @@ id beginOnFirstDraw
 id beginning
 id bestChoice
 id blocking
+id boot_button
 id bottom
 id bounce
 id bounceBoth
