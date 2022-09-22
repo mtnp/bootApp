@@ -18,6 +18,8 @@ package com.example.dogglers
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import android.view.View
 import android.widget.Button
 import com.example.dogglers.adapter.DogCardAdapter
 import com.example.dogglers.const.Layout
@@ -39,10 +41,18 @@ class GridListActivity : AppCompatActivity() {
 //        bootButton = findViewById(R.id.boot_button)
 //        bootButton!!.setOnClickListener { launchHorizontal() }
 
+
+
         binding.gridRecyclerView.adapter = DogCardAdapter(
             applicationContext,
             Layout.GRID
         )
+
+        // TODO : make changes to adapter so boot button is recognized
+//        binding.bootBtn.setOnClickListener{
+//            view -> handleButtonClick(view)
+//            launchBootItem()
+//        }
 
         // Specify fixed size to improve performance
         binding.gridRecyclerView.setHasFixedSize(true)
@@ -51,8 +61,19 @@ class GridListActivity : AppCompatActivity() {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
 
-    private fun launchHorizontal() {
+    fun launchHorizontal() {
         listIntent = Intent(this, HorizontalListActivity::class.java)
         startActivity(listIntent)
+    }
+
+    fun launchBootItem(){
+        listIntent = Intent(this, BootItemActivity::class.java)
+        startActivity(listIntent)
+    }
+
+    fun handleButtonClick(view: View) {
+        with (view as Button) {
+            Log.d("TAG", "BUTTON PRESSED")
+        }
     }
 }
