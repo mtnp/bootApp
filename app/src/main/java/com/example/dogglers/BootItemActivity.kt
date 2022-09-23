@@ -17,8 +17,6 @@ class BootItemActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityBootItemBinding.inflate(layoutInflater)
-        setContentView(binding.root)
-
-
+        setContentView(R.layout.activity_boot_item)
     }
 }

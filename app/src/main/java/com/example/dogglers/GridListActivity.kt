@@ -66,14 +66,11 @@ class GridListActivity : AppCompatActivity() {
         startActivity(listIntent)
     }
 
-    fun launchBootItem(){
-        listIntent = Intent(this, BootItemActivity::class.java)
-        startActivity(listIntent)
-    }
 
-    fun handleButtonClick(view: View) {
-        with (view as Button) {
-            Log.d("TAG", "BUTTON PRESSED")
-        }
-    }
+
+//    fun handleButtonClick(view: View) {
+//        with (view as Button) {
+//            Log.d("TAG", "BUTTON PRESSED")
+//        }
+//    }
 }

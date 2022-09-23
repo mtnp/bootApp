@@ -16,6 +16,7 @@
 package com.example.dogglers.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -24,6 +25,7 @@ import android.widget.TextView
 import android.widget.Button
 import androidx.core.view.get
 import androidx.recyclerview.widget.RecyclerView
+import com.example.dogglers.BootItemActivity
 import com.example.dogglers.R
 import com.example.dogglers.const.Layout
 import com.example.dogglers.data.DataSource
@@ -32,11 +34,13 @@ import com.example.dogglers.data.DataSource
  * Adapter to inflate the appropriate list item layout and populate the view with information
  * from the appropriate data source
  */
+
 class DogCardAdapter(
     private val context: Context?,
     private val layout: Int
 ): RecyclerView.Adapter<DogCardAdapter.DogCardViewHolder>() {
 
+    private lateinit var listIntent: Intent
 
     // gets the monster data
     val data = DataSource.boots
@@ -44,14 +48,14 @@ class DogCardAdapter(
     /**
      * Initialize view elements
      */
-    class DogCardViewHolder(view: View?): RecyclerView.ViewHolder(view!!) {
+    class DogCardViewHolder(val view: View): RecyclerView.ViewHolder(view) {
 
         // initializes the list of monsters to view
-        val bootImage : ImageView = view!!.findViewById(R.id.image)
-        val name : TextView = view!!.findViewById(R.id.name)
-        val leather : TextView = view!!.findViewById(R.id.leather)
-        val price : TextView = view!!.findViewById(R.id.price)
-        val bootButton: Button = view!!.findViewById(R.id.boot_button)
+        val bootImage : ImageView = view.findViewById(R.id.image)
+        val name : TextView = view.findViewById(R.id.name)
+        val leather : TextView = view.findViewById(R.id.leather)
+        val price : TextView = view.findViewById(R.id.price)
+        val bootButton: Button = view.findViewById(R.id.boot_button)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogCardViewHolder {
@@ -80,6 +84,10 @@ class DogCardAdapter(
         // gets the monster data from the list and sets the data to the monster card
         val bootCard = data[position]
         holder.bootImage.setImageResource(bootCard.imageResourceId)
+        holder.bootImage.setOnClickListener{
+            val context = holder.view.context
+            listIntent = Intent(context, BootItemActivity::class.java)
+            context.startActivity(listIntent)}
         holder.name.text = bootCard.name
         // Includes monster's flagship introduction and its abilities for context
         holder.leather.text = resources?.getString(R.string.leather, bootCard.leather)

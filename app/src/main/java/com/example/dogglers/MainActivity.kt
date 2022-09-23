@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // we want the grid view to be default
-//        launchGrid()
+        launchGrid()
 
         // Launch the VerticalListActivity on verticalBtn click
         binding.verticalBtn.setOnClickListener { launchVertical() }
@@ -60,6 +60,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun launchGrid() {
         listIntent = Intent(this, GridListActivity::class.java)
+        startActivity(listIntent)
+    }
+
+    fun launchBootItem(){
+        listIntent = Intent(this, BootItemActivity::class.java)
         startActivity(listIntent)
     }
 }
