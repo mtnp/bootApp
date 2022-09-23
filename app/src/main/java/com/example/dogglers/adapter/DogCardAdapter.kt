@@ -21,6 +21,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Button
 import androidx.core.view.get
 import androidx.recyclerview.widget.RecyclerView
 import com.example.dogglers.R
@@ -50,6 +51,7 @@ class DogCardAdapter(
         val name : TextView = view!!.findViewById(R.id.name)
         val leather : TextView = view!!.findViewById(R.id.leather)
         val price : TextView = view!!.findViewById(R.id.price)
+        val bootButton: Button = view!!.findViewById(R.id.boot_button)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogCardViewHolder {

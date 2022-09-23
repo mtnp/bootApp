@@ -40,7 +40,7 @@ class GridListActivity : AppCompatActivity() {
 //      Launch the HorizontalListActivity on horizontalBtn click
 //        bootButton = findViewById(R.id.boot_button)
 //        bootButton!!.setOnClickListener { launchHorizontal() }
-
+//        binding.boot_button.setOnClickListener { launchVertical() }
 
 
         binding.gridRecyclerView.adapter = DogCardAdapter(
