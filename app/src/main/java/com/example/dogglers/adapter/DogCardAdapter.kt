@@ -55,7 +55,6 @@ class DogCardAdapter(
         val name : TextView = view.findViewById(R.id.name)
         val leather : TextView = view.findViewById(R.id.leather)
         val price : TextView = view.findViewById(R.id.price)
-        val bootButton: Button = view.findViewById(R.id.boot_button)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DogCardViewHolder {
@@ -70,7 +69,6 @@ class DogCardAdapter(
                 LayoutInflater.from(parent.context).inflate(R.layout.vertical_horizontal_list_item, parent, false)
             }
         }
-
         return DogCardViewHolder(layoutView)
     }
 

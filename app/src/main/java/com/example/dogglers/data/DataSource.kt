@@ -25,10 +25,10 @@ object DataSource {
 
     val boots: List<Boots> = listOf(
         Boots(
-            R.drawable.losaltos_python,
-            "Los Altos: Python J-Toe",
+            R.drawable.yeehaw_python,
+            "Yeehaw Cowboy: Python Round Toe",
             "Python",
-            341.99
+            350.00
         ),
         Boots(
             R.drawable.rujo_davis,

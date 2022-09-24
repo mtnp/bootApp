@@ -62,9 +62,4 @@ class MainActivity : AppCompatActivity() {
         listIntent = Intent(this, GridListActivity::class.java)
         startActivity(listIntent)
     }
-
-    fun launchBootItem(){
-        listIntent = Intent(this, BootItemActivity::class.java)
-        startActivity(listIntent)
-    }
 }

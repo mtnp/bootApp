@@ -30,29 +30,15 @@ class GridListActivity : AppCompatActivity() {
     private lateinit var binding: ActivityGridListBinding
     private lateinit var listIntent: Intent
 
-//    private var bootButton: Button? = null
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityGridListBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-//      Launch the HorizontalListActivity on horizontalBtn click
-//        bootButton = findViewById(R.id.boot_button)
-//        bootButton!!.setOnClickListener { launchHorizontal() }
-//        binding.boot_button.setOnClickListener { launchVertical() }
-
-
         binding.gridRecyclerView.adapter = DogCardAdapter(
             applicationContext,
             Layout.GRID
         )
-
-        // TODO : make changes to adapter so boot button is recognized
-//        binding.bootBtn.setOnClickListener{
-//            view -> handleButtonClick(view)
-//            launchBootItem()
-//        }
 
         // Specify fixed size to improve performance
         binding.gridRecyclerView.setHasFixedSize(true)
@@ -60,17 +46,4 @@ class GridListActivity : AppCompatActivity() {
         // Enable up button for backward navigation
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }
-
-    fun launchHorizontal() {
-        listIntent = Intent(this, HorizontalListActivity::class.java)
-        startActivity(listIntent)
-    }
-
-
-
-//    fun handleButtonClick(view: View) {
-//        with (view as Button) {
-//            Log.d("TAG", "BUTTON PRESSED")
-//        }
-//    }
 }

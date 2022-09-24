@@ -2475,7 +2475,6 @@ int drawable ic_mtrl_checked_circle 0x7f07006d
 int drawable ic_mtrl_chip_checked_black 0x7f07006e
 int drawable ic_mtrl_chip_checked_circle 0x7f07006f
 int drawable ic_mtrl_chip_close_circle 0x7f070070
-int drawable losaltos_python 0x7f070071
 int drawable luchesse_cliff 0x7f070072
 int drawable m3_appbar_background 0x7f070073
 int drawable m3_popupmenu_background_overlay 0x7f070074
@@ -2524,6 +2523,7 @@ int drawable test_custom_background 0x7f07009e
 int drawable test_level_drawable 0x7f07009f
 int drawable tooltip_frame_dark 0x7f0700a0
 int drawable tooltip_frame_light 0x7f0700a1
+int drawable yeehaw_python 0x7f0700a2
 int id ALT 0x7f080000
 int id BOTTOM_END 0x7f080001
 int id BOTTOM_START 0x7f080002
