@@ -7,7 +7,6 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.example.dogglers.R;
@@ -21,16 +20,29 @@ public final class ActivityBootItemBinding implements ViewBinding {
   private final MaterialCardView rootView;
 
   @NonNull
-  public final RecyclerView horizontalRecyclerView;
-
-  @NonNull
   public final ImageView image;
 
-  private ActivityBootItemBinding(@NonNull MaterialCardView rootView,
-      @NonNull RecyclerView horizontalRecyclerView, @NonNull ImageView image) {
+  @NonNull
+  public final ImageView miniBase;
+
+  @NonNull
+  public final ImageView miniOne;
+
+  @NonNull
+  public final ImageView miniThree;
+
+  @NonNull
+  public final ImageView miniTwo;
+
+  private ActivityBootItemBinding(@NonNull MaterialCardView rootView, @NonNull ImageView image,
+      @NonNull ImageView miniBase, @NonNull ImageView miniOne, @NonNull ImageView miniThree,
+      @NonNull ImageView miniTwo) {
     this.rootView = rootView;
-    this.horizontalRecyclerView = horizontalRecyclerView;
     this.image = image;
+    this.miniBase = miniBase;
+    this.miniOne = miniOne;
+    this.miniThree = miniThree;
+    this.miniTwo = miniTwo;
   }
 
   @Override
@@ -60,20 +72,38 @@ public final class ActivityBootItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.horizontal_recycler_view;
-      RecyclerView horizontalRecyclerView = ViewBindings.findChildViewById(rootView, id);
-      if (horizontalRecyclerView == null) {
-        break missingId;
-      }
-
       id = R.id.image;
       ImageView image = ViewBindings.findChildViewById(rootView, id);
       if (image == null) {
         break missingId;
       }
 
-      return new ActivityBootItemBinding((MaterialCardView) rootView, horizontalRecyclerView,
-          image);
+      id = R.id.mini_base;
+      ImageView miniBase = ViewBindings.findChildViewById(rootView, id);
+      if (miniBase == null) {
+        break missingId;
+      }
+
+      id = R.id.mini_one;
+      ImageView miniOne = ViewBindings.findChildViewById(rootView, id);
+      if (miniOne == null) {
+        break missingId;
+      }
+
+      id = R.id.mini_three;
+      ImageView miniThree = ViewBindings.findChildViewById(rootView, id);
+      if (miniThree == null) {
+        break missingId;
+      }
+
+      id = R.id.mini_two;
+      ImageView miniTwo = ViewBindings.findChildViewById(rootView, id);
+      if (miniTwo == null) {
+        break missingId;
+      }
+
+      return new ActivityBootItemBinding((MaterialCardView) rootView, image, miniBase, miniOne,
+          miniThree, miniTwo);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
