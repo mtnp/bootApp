@@ -26,5 +26,6 @@ data class Boots(
     @DrawableRes val imageResourceId: Int,
     val name: String,
     val leather: String,
-    val price: Double
+    val price: Double,
+    val miniSet: Array<Int>
 )
