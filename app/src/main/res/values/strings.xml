@@ -27,4 +27,5 @@
     <string name="name">Name: %1$s</string>
     <string name="leather">Leather: %1$s</string>
     <string name="price">\$%1$.2f</string>
+    <string name="view_cart">View Cart</string>
 </resources>

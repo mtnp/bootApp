@@ -3035,6 +3035,7 @@ id useLogo
 id vertical_btn
 id vertical_only
 id vertical_recycler_view
+id view_cart_btn
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3144,10 +3145,13 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_boot_item
+layout activity_confirmation
 layout activity_grid_list
 layout activity_horizontal_list
 layout activity_main
+layout activity_shipping_billing
 layout activity_vertical_list
+layout activity_view_cart
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3389,6 +3393,7 @@ string price
 string search_menu_title
 string status_bar_notification_info_overflow
 string vertical
+string view_cart
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

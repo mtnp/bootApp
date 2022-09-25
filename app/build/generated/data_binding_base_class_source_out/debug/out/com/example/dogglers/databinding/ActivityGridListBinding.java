@@ -4,9 +4,10 @@ package com.example.dogglers.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
@@ -17,20 +18,24 @@ import java.lang.String;
 
 public final class ActivityGridListBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final ConstraintLayout rootView;
 
   @NonNull
   public final RecyclerView gridRecyclerView;
 
-  private ActivityGridListBinding(@NonNull FrameLayout rootView,
-      @NonNull RecyclerView gridRecyclerView) {
+  @NonNull
+  public final Button viewCartBtn;
+
+  private ActivityGridListBinding(@NonNull ConstraintLayout rootView,
+      @NonNull RecyclerView gridRecyclerView, @NonNull Button viewCartBtn) {
     this.rootView = rootView;
     this.gridRecyclerView = gridRecyclerView;
+    this.viewCartBtn = viewCartBtn;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public ConstraintLayout getRoot() {
     return rootView;
   }
 
@@ -61,7 +66,14 @@ public final class ActivityGridListBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityGridListBinding((FrameLayout) rootView, gridRecyclerView);
+      id = R.id.view_cart_btn;
+      Button viewCartBtn = ViewBindings.findChildViewById(rootView, id);
+      if (viewCartBtn == null) {
+        break missingId;
+      }
+
+      return new ActivityGridListBinding((ConstraintLayout) rootView, gridRecyclerView,
+          viewCartBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

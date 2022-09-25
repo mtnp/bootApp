@@ -3034,6 +3034,7 @@ int id useLogo 0x7f0801e7
 int id vertical_btn 0x7f0801e8
 int id vertical_only 0x7f0801e9
 int id vertical_recycler_view 0x7f0801ea
+int id view_cart_btn 0x7f0801fb
 int id view_offset_helper 0x7f0801eb
 int id view_transition 0x7f0801ec
 int id view_tree_lifecycle_owner 0x7f0801ed
@@ -3143,10 +3144,13 @@ int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
 int layout activity_boot_item 0x7f0b001c
+int layout activity_confirmation 0x7f0b0086
 int layout activity_grid_list 0x7f0b001d
 int layout activity_horizontal_list 0x7f0b001e
 int layout activity_main 0x7f0b001f
+int layout activity_shipping_billing 0x7f0b0087
 int layout activity_vertical_list 0x7f0b0020
+int layout activity_view_cart 0x7f0b0088
 int layout custom_dialog 0x7f0b0021
 int layout design_bottom_navigation_item 0x7f0b0022
 int layout design_bottom_sheet_dialog 0x7f0b0023
@@ -3388,6 +3392,7 @@ int string price 0x7f0f0083
 int string search_menu_title 0x7f0f0084
 int string status_bar_notification_info_overflow 0x7f0f0085
 int string vertical 0x7f0f0086
+int string view_cart 0x7f0f0087
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
 int style AndroidThemeColorAccentYellow 0x7f100002
