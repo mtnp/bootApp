@@ -85,6 +85,9 @@ class DogCardAdapter(
         holder.bootImage.setOnClickListener{
             val context = holder.view.context
             listIntent = Intent(context, BootItemActivity::class.java)
+            listIntent.putExtra("MiniSet", bootCard.miniSet)
+            listIntent.putExtra("DummyString", "Test")
+            listIntent.putExtra("DummyInt", 73)
             context.startActivity(listIntent)}
         holder.name.text = bootCard.name
         // Includes monster's flagship introduction and its abilities for context

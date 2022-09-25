@@ -27,5 +27,5 @@ data class Boots(
     val name: String,
     val leather: String,
     val price: Double,
-    val miniSet: Array<Int>
+    val miniSet: IntArray
 )
