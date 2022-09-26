@@ -64,6 +64,18 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
+        <activity android:name="com.example.dogglers.ConfirmationActivity" >
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
+        <activity android:name="com.example.dogglers.ShippingBillingActivity" >
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
+        <activity android:name="com.example.dogglers.ViewCartActivity" >
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
         <activity
             android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
             android:exported="true"

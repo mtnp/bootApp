@@ -4,7 +4,9 @@ package com.example.dogglers.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
@@ -18,6 +20,9 @@ import java.lang.String;
 public final class ActivityBootItemBinding implements ViewBinding {
   @NonNull
   private final MaterialCardView rootView;
+
+  @NonNull
+  public final Button cartBtn;
 
   @NonNull
   public final ImageView image;
@@ -34,15 +39,20 @@ public final class ActivityBootItemBinding implements ViewBinding {
   @NonNull
   public final ImageView miniTwo;
 
-  private ActivityBootItemBinding(@NonNull MaterialCardView rootView, @NonNull ImageView image,
-      @NonNull ImageView miniBase, @NonNull ImageView miniOne, @NonNull ImageView miniThree,
-      @NonNull ImageView miniTwo) {
+  @NonNull
+  public final TextView name;
+
+  private ActivityBootItemBinding(@NonNull MaterialCardView rootView, @NonNull Button cartBtn,
+      @NonNull ImageView image, @NonNull ImageView miniBase, @NonNull ImageView miniOne,
+      @NonNull ImageView miniThree, @NonNull ImageView miniTwo, @NonNull TextView name) {
     this.rootView = rootView;
+    this.cartBtn = cartBtn;
     this.image = image;
     this.miniBase = miniBase;
     this.miniOne = miniOne;
     this.miniThree = miniThree;
     this.miniTwo = miniTwo;
+    this.name = name;
   }
 
   @Override
@@ -72,6 +82,12 @@ public final class ActivityBootItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.cart_btn;
+      Button cartBtn = ViewBindings.findChildViewById(rootView, id);
+      if (cartBtn == null) {
+        break missingId;
+      }
+
       id = R.id.image;
       ImageView image = ViewBindings.findChildViewById(rootView, id);
       if (image == null) {
@@ -102,8 +118,14 @@ public final class ActivityBootItemBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityBootItemBinding((MaterialCardView) rootView, image, miniBase, miniOne,
-          miniThree, miniTwo);
+      id = R.id.name;
+      TextView name = ViewBindings.findChildViewById(rootView, id);
+      if (name == null) {
+        break missingId;
+      }
+
+      return new ActivityBootItemBinding((MaterialCardView) rootView, cartBtn, image, miniBase,
+          miniOne, miniThree, miniTwo, name);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

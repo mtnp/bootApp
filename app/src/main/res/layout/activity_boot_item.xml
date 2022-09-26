@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<com.google.android.material.card.MaterialCardView
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
     app:cardElevation="4dp"
-    app:cardCornerRadius="4dp">
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -20,57 +21,73 @@
             android:layout_height="200dp"
             android:contentDescription="@string/monster_photo"
             android:scaleType="centerInside"
+            android:src="@drawable/error"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:src="@drawable/ariat_flyhigh"
-            android:src="@drawable/error"
-            />
+            tools:src="@drawable/ariat_flyhigh" />
 
         <ImageView
             android:id="@+id/mini_base"
             android:layout_width="90dp"
             android:layout_height="60dp"
-            app:layout_constraintTop_toBottomOf="@id/image"
-            app:layout_constraintStart_toStartOf="parent"
             android:padding="10dp"
-            tools:src="@drawable/ariat_flyhigh"
-            android:src="@drawable/chisos_no1"
-            />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image"
+            tools:src="@drawable/ariat_flyhigh" />
 
         <ImageView
             android:id="@+id/mini_one"
             android:layout_width="90dp"
             android:layout_height="60dp"
-            app:layout_constraintTop_toBottomOf="@id/image"
-            app:layout_constraintStart_toEndOf="@id/mini_base"
             android:padding="10dp"
-            tools:src="@drawable/ariat_flyhigh1"
-            android:src="@drawable/chisos_no11"
-            />
+            app:layout_constraintStart_toEndOf="@id/mini_base"
+            app:layout_constraintTop_toBottomOf="@id/image"
+            tools:src="@drawable/ariat_flyhigh1" />
 
         <ImageView
             android:id="@+id/mini_two"
             android:layout_width="90dp"
             android:layout_height="60dp"
-            app:layout_constraintTop_toBottomOf="@id/image"
-            app:layout_constraintStart_toEndOf="@id/mini_one"
             android:padding="10dp"
-            tools:src="@drawable/ariat_flyhigh2"
-            android:src="@drawable/chisos_no12"
-            />
+            app:layout_constraintStart_toEndOf="@id/mini_one"
+            app:layout_constraintTop_toBottomOf="@id/image"
+            tools:src="@drawable/ariat_flyhigh2" />
 
         <ImageView
             android:id="@+id/mini_three"
             android:layout_width="90dp"
             android:layout_height="60dp"
-            app:layout_constraintTop_toBottomOf="@id/image"
-            app:layout_constraintStart_toEndOf="@id/mini_two"
             android:padding="10dp"
-            tools:src="@drawable/ariat_flyhigh3"
-            android:src="@drawable/chisos_no13"
+            app:layout_constraintStart_toEndOf="@id/mini_two"
+            app:layout_constraintTop_toBottomOf="@id/image"
+            tools:src="@drawable/ariat_flyhigh3" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/mini_one"
+            android:padding="8dp"
+            tools:text="TESTESTTEST"
+            android:textSize="35dp"
             />
 
+        <Button
+            android:id="@+id/cart_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/button_width"
+            android:text="@string/add_cart"
+            android:backgroundTint="@android:color/holo_red_light"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </com.google.android.material.card.MaterialCardView>
+

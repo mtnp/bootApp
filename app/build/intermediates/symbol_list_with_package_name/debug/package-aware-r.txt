@@ -2650,6 +2650,7 @@ id callMeasure
 id cancel_action
 id cancel_button
 id carryVelocity
+id cart_btn
 id center
 id centerCrop
 id centerInside
@@ -2685,6 +2686,7 @@ id coordinator
 id cos
 id counterclockwise
 id currentState
+id current_cart
 id custom
 id customPanel
 id cut
@@ -3035,7 +3037,6 @@ id useLogo
 id vertical_btn
 id vertical_only
 id vertical_recycler_view
-id view_cart_btn
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3285,6 +3286,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string add_cart
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
@@ -3293,6 +3295,7 @@ string bottomsheet_action_expand_halfway
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
+string checkout
 string chip_text
 string clear_text_end_icon_content_description
 string dog_age

@@ -28,4 +28,7 @@
     <string name="leather">Leather: %1$s</string>
     <string name="price">\$%1$.2f</string>
     <string name="view_cart">View Cart</string>
+    <string name="add_cart">Add to Cart</string>
+    <string name="checkout">Continue to Check Out</string>
+
 </resources>

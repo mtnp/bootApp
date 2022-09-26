@@ -38,12 +38,4 @@
             />
 
     </FrameLayout>
-
-    <Button
-        android:id="@+id/view_cart_btn"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:text="@string/view_cart"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
 </androidx.constraintlayout.widget.ConstraintLayout>

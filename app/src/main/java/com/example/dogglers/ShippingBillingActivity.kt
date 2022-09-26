@@ -1,4 +1,6 @@
 package com.example.dogglers
 
-class ShippingBillingActivity {
+import androidx.appcompat.app.AppCompatActivity
+
+class ShippingBillingActivity : AppCompatActivity(){
 }

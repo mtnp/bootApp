@@ -1,4 +1,6 @@
 package com.example.dogglers
 
-class ConfirmationActivity {
+import androidx.appcompat.app.AppCompatActivity
+
+class ConfirmationActivity :AppCompatActivity(){
 }
