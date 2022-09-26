@@ -2661,6 +2661,7 @@ id chain2
 id chains
 id checkbox
 id checked
+id checkout_button
 id chip
 id chip1
 id chip2
@@ -2668,6 +2669,7 @@ id chip3
 id chip_group
 id chronometer
 id circle_center
+id city
 id clear_text
 id clip_horizontal
 id clip_vertical
@@ -2732,6 +2734,7 @@ id elastic
 id end
 id endToStart
 id end_padder
+id endscreen
 id enterAlways
 id enterAlwaysCollapsed
 id exitUntilCollapsed
@@ -2769,6 +2772,7 @@ id header_title
 id hideable
 id home
 id homeAsUp
+id home_button
 id honorRequest
 id horizontal_btn
 id horizontal_only
@@ -2908,6 +2912,12 @@ id price
 id progress_circular
 id progress_horizontal
 id radio
+id radio1
+id radio2
+id radio3
+id radio4
+id radio5
+id rate_satisfaction
 id ratio
 id rectangles
 id reverseSawtooth
@@ -2917,6 +2927,8 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id satisfaction_button
+id satisfaction_group
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2942,6 +2954,7 @@ id selected
 id selection_type
 id sharedValueSet
 id sharedValueUnset
+id shipping
 id shortcut
 id showCustom
 id showHome
@@ -2971,10 +2984,12 @@ id start
 id startHorizontal
 id startToEnd
 id startVertical
+id state
 id staticLayout
 id staticPostLayout
 id status_bar_latest_event_content
 id stop
+id street_address
 id stretch
 id submenuarrow
 id submit_area
@@ -3013,6 +3028,8 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id thank_you
+id thanks
 id time
 id title
 id titleDividerNoCustom
@@ -3037,6 +3054,7 @@ id useLogo
 id vertical_btn
 id vertical_only
 id vertical_recycler_view
+id view_cart_btn
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3053,6 +3071,7 @@ id wrap_content_constrained
 id x_left
 id x_right
 id zero_corner_chip
+id zip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer app_bar_elevation_anim_duration
@@ -3150,6 +3169,7 @@ layout activity_confirmation
 layout activity_grid_list
 layout activity_horizontal_list
 layout activity_main
+layout activity_satisfaction
 layout activity_shipping_billing
 layout activity_vertical_list
 layout activity_view_cart
@@ -3298,9 +3318,15 @@ string character_counter_pattern
 string checkout
 string chip_text
 string clear_text_end_icon_content_description
+string confirm_shipping_information
+string continue_to_confirmation
 string dog_age
 string dog_hobbies
 string dog_photo
+string enter_city
+string enter_state
+string enter_street_address
+string enter_zip_code
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -3392,9 +3418,11 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string please_rate_your_transaction
 string price
 string search_menu_title
 string status_bar_notification_info_overflow
+string thank_you_for_your_order
 string vertical
 string view_cart
 style AlertDialog_AppCompat

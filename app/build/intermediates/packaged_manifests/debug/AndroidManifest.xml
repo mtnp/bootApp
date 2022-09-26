@@ -76,6 +76,10 @@
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".MainActivity" />
         </activity>
+        <activity android:name="com.example.dogglers.SatisfactionActivity" >
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+        </activity>
         <activity
             android:name="androidx.fragment.app.testing.FragmentScenario$EmptyFragmentActivity"
             android:exported="true"

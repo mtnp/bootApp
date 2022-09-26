@@ -4,6 +4,7 @@ package com.example.dogglers.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -22,10 +23,14 @@ public final class ActivityGridListBinding implements ViewBinding {
   @NonNull
   public final RecyclerView gridRecyclerView;
 
+  @NonNull
+  public final Button viewCartBtn;
+
   private ActivityGridListBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView gridRecyclerView) {
+      @NonNull RecyclerView gridRecyclerView, @NonNull Button viewCartBtn) {
     this.rootView = rootView;
     this.gridRecyclerView = gridRecyclerView;
+    this.viewCartBtn = viewCartBtn;
   }
 
   @Override
@@ -61,7 +66,14 @@ public final class ActivityGridListBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityGridListBinding((ConstraintLayout) rootView, gridRecyclerView);
+      id = R.id.view_cart_btn;
+      Button viewCartBtn = ViewBindings.findChildViewById(rootView, id);
+      if (viewCartBtn == null) {
+        break missingId;
+      }
+
+      return new ActivityGridListBinding((ConstraintLayout) rootView, gridRecyclerView,
+          viewCartBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

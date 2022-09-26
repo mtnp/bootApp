@@ -30,5 +30,13 @@
     <string name="view_cart">View Cart</string>
     <string name="add_cart">Add to Cart</string>
     <string name="checkout">Continue to Check Out</string>
+    <string name="enter_street_address">Enter Street Address</string>
+    <string name="enter_city">Enter City</string>
+    <string name="enter_zip_code">Enter Zip Code</string>
+    <string name="enter_state">Enter State</string>
+    <string name="continue_to_confirmation">Continue to Confirmation</string>
+    <string name="thank_you_for_your_order">Thank You For Your Order!</string>
+    <string name="please_rate_your_transaction">Please Rate Your Transaction</string>
+    <string name="confirm_shipping_information">Confirm Shipping Information</string>
 
 </resources>

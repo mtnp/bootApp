@@ -1,162 +1,170 @@
 [
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_shipping_billing.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_shipping_billing.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_error.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\error.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_confirmation.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_confirmation.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_rujo_davis3.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\rujo_davis3.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ariat_flyhigh3.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ariat_flyhigh3.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_rujo_davis1.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\rujo_davis1.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_tecovas_dillon3.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\tecovas_dillon3.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_yeehaw_python3.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\yeehaw_python3.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_luchesse_cliff3.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\luchesse_cliff3.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_chisos_no12.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\chisos_no12.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_tecovas_dillon2.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\tecovas_dillon2.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_chisos_no1.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\chisos_no1.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_tecovas_dillon.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\tecovas_dillon.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_view_cart.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_view_cart.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_grid_list.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_grid_list.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_luchesse_cliff1.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\luchesse_cliff1.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_chisos_no11.JPG.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\chisos_no11.JPG"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ariat_flyhigh1.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ariat_flyhigh1.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_chisos_no11.JPG.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\chisos_no11.JPG"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_luchesse_cliff1.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\luchesse_cliff1.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_rujo_davis2.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\rujo_davis2.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_satisfaction.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_satisfaction.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ariat_flyhigh.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ariat_flyhigh.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_vertical_horizontal_list_item.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\vertical_horizontal_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_tecovas_dillon1.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\tecovas_dillon1.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_yeehaw_python3.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\yeehaw_python3.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_tecovas_dillon.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\tecovas_dillon.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_horizontal_list.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_horizontal_list.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ariat_flyhigh3.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ariat_flyhigh3.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_rujo_davis3.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\rujo_davis3.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.dogglers.app-merged_res-29:/layout_activity_view_cart.xml.flat",
-        "source": "com.example.dogglers.app-main-31:/layout/activity_view_cart.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_grid_list_item.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\grid_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_yeehaw_python2.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\yeehaw_python2.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_yeehaw_python1.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\yeehaw_python1.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ic_launcher_foreground.xml"
+        "merged": "com.example.dogglers.app-merged_res-29:/layout_activity_satisfaction.xml.flat",
+        "source": "com.example.dogglers.app-main-31:/layout/activity_satisfaction.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_yeehaw_python.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\yeehaw_python.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_rujo_davis2.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\rujo_davis2.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_error.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\error.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_chisos_no12.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\chisos_no12.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_tecovas_dillon2.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\tecovas_dillon2.jpg"
+        "merged": "com.example.dogglers.app-merged_res-29:/layout_activity_confirmation.xml.flat",
+        "source": "com.example.dogglers.app-main-31:/layout/activity_confirmation.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_shipping_billing.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_shipping_billing.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_chisos_no13.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\chisos_no13.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_vertical_list.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_vertical_list.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_boot_item.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_boot_item.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_view_cart.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_view_cart.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_rujo_davis1.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\rujo_davis1.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_confirmation.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_confirmation.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ariat_flyhigh2.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ariat_flyhigh2.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_tecovas_dillon1.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\tecovas_dillon1.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_luchesse_cliff2.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\luchesse_cliff2.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ariat_flyhigh.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ariat_flyhigh.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_rujo_davis.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\rujo_davis.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_rujo_davis.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\rujo_davis.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_luchesse_cliff.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\luchesse_cliff.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ariat_flyhigh1.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ariat_flyhigh1.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_vertical_horizontal_list_item.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\vertical_horizontal_list_item.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_tecovas_dillon3.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\tecovas_dillon3.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_yeehaw_python1.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\yeehaw_python1.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_luchesse_cliff.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\luchesse_cliff.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_luchesse_cliff3.jpg.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\luchesse_cliff3.jpg"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_luchesse_cliff2.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\luchesse_cliff2.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_horizontal_list.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_horizontal_list.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_ariat_flyhigh2.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\ariat_flyhigh2.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_grid_list_item.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\grid_list_item.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_chisos_no13.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\chisos_no13.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_vertical_list.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_vertical_list.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_chisos_no1.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\chisos_no1.jpg"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_grid_list.xml.flat",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_grid_list.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_yeehaw_python2.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\yeehaw_python2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\layout_activity_boot_item.xml.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_boot_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-merged_res-29:\\drawable_yeehaw_python.jpg.flat",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\drawable\\yeehaw_python.jpg"
     }
 ]

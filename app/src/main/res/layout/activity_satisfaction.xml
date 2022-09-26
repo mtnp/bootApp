@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/thank_you"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:padding="8dp"
+            android:text="Thank you for shopping with us!"
+            android:textSize="35dp"
+            />
+
+        <TextView
+            android:id="@+id/rate_satisfaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/thank_you"
+            android:padding="8dp"
+            android:text="How would you rate your experience?"
+            android:textSize="28dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/satisfaction_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/rate_satisfaction"
+            app:layout_constraintStart_toEndOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "1"
+                />
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "2"
+                />
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "3"
+                />
+            <RadioButton
+                android:id="@+id/radio4"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "4"
+                />
+            <RadioButton
+                android:id="@+id/radio5"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "5"
+                />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/home_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:text="Return to Home Page"
+            android:backgroundTint="@android:color/holo_red_light"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

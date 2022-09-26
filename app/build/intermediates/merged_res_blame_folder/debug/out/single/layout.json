@@ -1,46 +1,54 @@
 [
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\grid_list_item.xml",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\grid_list_item.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_view_cart.xml",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_view_cart.xml"
     },
     {
-        "merged": "com.example.dogglers.app-mergeDebugResources-28:/layout/activity_view_cart.xml",
-        "source": "com.example.dogglers.app-main-31:/layout/activity_view_cart.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_grid_list.xml",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_grid_list.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_confirmation.xml",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_confirmation.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\vertical_horizontal_list_item.xml",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\vertical_horizontal_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_vertical_list.xml",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_vertical_list.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_shipping_billing.xml",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_shipping_billing.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_main.xml"
+        "merged": "com.example.dogglers.app-mergeDebugResources-28:/layout/activity_confirmation.xml",
+        "source": "com.example.dogglers.app-main-31:/layout/activity_confirmation.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_boot_item.xml",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_boot_item.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\grid_list_item.xml",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\grid_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_grid_list.xml",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_grid_list.xml"
+        "merged": "com.example.dogglers.app-mergeDebugResources-28:/layout/activity_satisfaction.xml",
+        "source": "com.example.dogglers.app-main-31:/layout/activity_satisfaction.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_horizontal_list.xml",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_horizontal_list.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_confirmation.xml",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_confirmation.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_view_cart.xml",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_view_cart.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_boot_item.xml",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_boot_item.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\vertical_horizontal_list_item.xml",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\vertical_horizontal_list_item.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_horizontal_list.xml",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_horizontal_list.xml"
     },
     {
-        "merged": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_shipping_billing.xml",
-        "source": "C:\\Users\\silas\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_shipping_billing.xml"
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_satisfaction.xml",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_satisfaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-mergeDebugResources-28:\\layout\\activity_vertical_list.xml",
+        "source": "C:\\Users\\unguy\\.gradle\\daemon\\7.4.2\\com.example.dogglers.app-main-31:\\layout\\activity_vertical_list.xml"
     }
 ]
